@@ -1,0 +1,26 @@
+{
+  "name": "vendor_name/test",
+  "description": "description",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "repositories": [
+    {
+      "type": "git",
+      "url": "https://*username*@bitbucket.org/mahatmaguru/intr-sdk-test.git"
+    }
+  ],
+  "authors": [
+    {
+      "name": "mohdan",
+      "email": "email@example.com"
+    }
+  ],
+  "require": {
+    "mahatmaguru/intr-sdk-test": "*@dev"
+  },
+  "autoload": {
+    "psr-4": {
+      "Amo\\": "src/"
+    }
+  }
+}
